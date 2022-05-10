@@ -1,0 +1,8 @@
+CREATE TABLE products(
+	id INT(255) PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(255),
+    price INT(255),
+    image VARCHAR(255)
+);
+
+INSERT INTO products(name,price,image) VALUES ('closet',50,'closet.jpg'),('decorative toy',20,'decorative toy.jpg'),('foosball',100,'foosball.jpg'),('glass table',40,'glass table.jpg');
